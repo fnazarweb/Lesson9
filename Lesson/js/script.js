@@ -7,7 +7,8 @@
 
 // btn1.addEventListener("click", () => console.log("click"));
 // btn2.addEventListener("contextmenu", () => console.log("contextmenu"));
-// btn3.addEventListener("mouseout", () => console.log("mouseover"));
+// btn3.addEventListener("mouseover", () => console.log("mouseover"));
+// btn3.addEventListener("mouseout", () => console.log("mouseout"));
 // btn4.addEventListener("mousedown", () => console.log("mousedown"));
 // btn5.addEventListener("mousemove", () => console.log("mousemove"));
 // btn6.addEventListener("keydown", () => keydownTest("keydown"));
@@ -37,27 +38,27 @@
 // clickBtn.addEventListener("click", infoClick);
 
 // const form = document.querySelector(".form");
-// const loginInput = form.querySelector('input[type="text"]');
+// const loginInput = form.querySelector('input[type="text"]'); // form
 // const passInput = form.querySelector('input[type="password"]');
 
-// form.addEventListener("submit", handleSubmit);
+// form.addEventListener("submit", handleSubmit); //слухач на кнопку але form і submit
 
 // function handleSubmit(event) {
-//   event.preventDefault();
+//   event.preventDefault(); //зупинка автоматичної події перезавнтаження
 //   const login = loginInput.value;
 //   const password = passInput.value;
 
 //   console.log(`Логін: ${login}, пароль: ${password}`);
-//   form.reset();
+//   form.reset(); //Віндовлення події перезавантаження
 // }
 
-const parent = document.querySelector("#parent");
-const child = document.querySelector("#child");
-const item = document.querySelector("#item");
+// const parent = document.querySelector("#parent");
+// const child = document.querySelector("#child");
+// const item = document.querySelector("#item");
 
 // parent.addEventListener("click", () => console.log("Click Parent!"));
 // child.addEventListener("click", () => console.log("Click child!"));
-// item.addEventListener("click", () => console.log("Click item!"));
+// item.addEventListener("click", () => console.log("Click item!")); //item child parent
 
 // const handleClick = (event) => {
 //   console.log("event: ", event.target);
